@@ -1,0 +1,118 @@
+body{
+	background-color:black;
+	color:white;
+	font-family:Agency FB;
+	font-size:16px;
+	line-height:1.6em;
+	font-style: italic;
+	margin:0;
+}
+
+.button{
+	background-color:pink;
+	color:black;
+	padding:10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background:red;
+	color:#fff;
+}
+
+.clr{
+	clear:both;
+}
+
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color:pink;
+	color:black;
+	text-align: center;
+}
+
+#navbar{
+	background-color:#3353;
+	color:#fff;
+	padding-bottom: 17px;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#showcase{
+	background-image:url('../images/olesol.jpg');
+	background-repeat: no-repeat;
+	background-position:top;
+	min-height:300px;
+	margin-bottom:2px;
+	text-align: center;
+}
+
+#showcase h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:30px;
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+h2 a{
+	color: pink;
+}
+
+#main-footer{
+	background:#fd6c9e;
+	color:black;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
+
+h4{
+	color: pink;
+}
+.my-form{
+	padding:7px;
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+}
