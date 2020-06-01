@@ -1,0 +1,49 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+h4
+{
+	color: black;
+	text-align: center;
+}
+
+.card-body{
+	background-color: pink;
+}
+
+.card-text{
+	color: black;
+	text-align: center;
+}
+
+h5{
+	color: red;
+	text-align: center;
+	margin-top: 30px;
+}
+*{
+	font-family: Agency fb;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.container{
+	padding-top: 30px;
+}
+
+.container p{
+	padding-top: 40px;
+}
+
+h1{
+	text-align: center;
+	padding-top: 300px;
+}
+
+footer{
+	background-color: pink;
+	text-align: center;
+	color: black;
+}
